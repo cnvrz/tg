@@ -21,16 +21,16 @@
 #include <tgl/tgl-structures.h>
 #include <tgl/tgl-layout.h>
 
-#define COLOR_RED "\033[31m"
+#define COLOR_RED "\033[37m"
 #define COLOR_REDB "\033[1;31m"
-#define COLOR_NORMAL "\033[30m"
-#define COLOR_GREEN "\033[032m"
-#define COLOR_GREY "\033[37m"
+#define COLOR_NORMAL "\033[m"
+#define COLOR_GREEN "\033[32m"
+#define COLOR_GREY "\033[36m"
 #define COLOR_YELLOW "\033[33m"
 #define COLOR_BLUE "\033[34m"
-#define COLOR_MAGENTA "\033[35m"
-#define COLOR_CYAN "\033[36m"
-#define COLOR_LCYAN "\033[36m"
+#define COLOR_MAGENTA "\033[1;35m"
+#define COLOR_CYAN "\033[37m"
+#define COLOR_LCYAN "\033[1;37m"
 
 #define COLOR_INVERSE "\033[7m"
 

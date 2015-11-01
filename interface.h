@@ -21,18 +21,18 @@
 #include <tgl/tgl-structures.h>
 #include <tgl/tgl-layout.h>
 
-#define COLOR_RED "\033[37m"
+#define COLOR_RED "\033[0;37m"
 #define COLOR_REDB "\033[1;31m"
-#define COLOR_NORMAL "\033[m"
-#define COLOR_GREEN "\033[32m"
-#define COLOR_GREY "\033[36m"
-#define COLOR_YELLOW "\033[33m"
-#define COLOR_BLUE "\033[34m"
+#define COLOR_NORMAL "\033[0;m"
+#define COLOR_GREEN "\033[0;32m"
+#define COLOR_GREY "\033[0;36m"
+#define COLOR_YELLOW "\033[0;33m"
+#define COLOR_BLUE "\033[0;34m"
 #define COLOR_MAGENTA "\033[1;35m"
-#define COLOR_CYAN "\033[37m"
-#define COLOR_LCYAN "\033[1;37m"
+#define COLOR_CYAN "\033[0;37m"
+#define COLOR_LCYAN "\033[1;34m"
 
-#define COLOR_INVERSE "\033[7m"
+#define COLOR_INVERSE "\033[0;41m"
 
 char *get_default_prompt (void);
 char *complete_none (const char *text, int state);
